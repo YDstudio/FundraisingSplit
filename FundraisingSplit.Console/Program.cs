@@ -14,7 +14,7 @@ namespace FundraisingSplitConsole
 
     static void Main(string[] args)
     {
-      var token = "910140411:AAGLYKHlLpm0rUTzgrPbJNL2gnv5sIvVvVA";
+      var token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
       botClient = new TelegramBotClient(token);
       var me = botClient.GetMeAsync().Result;
 
