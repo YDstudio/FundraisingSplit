@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundraisingSplit", "FundraisingSplit\FundraisingSplit.csproj", "{631C30DB-B698-4443-97F1-EB6AF8D6ED50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FundraisingSplit", "FundraisingSplit\FundraisingSplit.csproj", "{631C30DB-B698-4443-97F1-EB6AF8D6ED50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FundraisingSplit.SDK", "FundraisingSplit.SDK\FundraisingSplit.SDK.csproj", "{44284321-F2CE-4B61-99A8-D4B8EE371386}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FundraisingSplitConsole", "FundraisingSplit.Console\FundraisingSplitConsole.csproj", "{722193A2-1F51-4639-B985-9D6693B67667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundraisingSplit.SDKTests", "FundraisingSplit.SDKTests\FundraisingSplit.SDKTests.csproj", "{E00A44A1-7E95-4DE3-8B11-84021C86F288}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{631C30DB-B698-4443-97F1-EB6AF8D6ED50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{631C30DB-B698-4443-97F1-EB6AF8D6ED50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{631C30DB-B698-4443-97F1-EB6AF8D6ED50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44284321-F2CE-4B61-99A8-D4B8EE371386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44284321-F2CE-4B61-99A8-D4B8EE371386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44284321-F2CE-4B61-99A8-D4B8EE371386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44284321-F2CE-4B61-99A8-D4B8EE371386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722193A2-1F51-4639-B985-9D6693B67667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722193A2-1F51-4639-B985-9D6693B67667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722193A2-1F51-4639-B985-9D6693B67667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722193A2-1F51-4639-B985-9D6693B67667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00A44A1-7E95-4DE3-8B11-84021C86F288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00A44A1-7E95-4DE3-8B11-84021C86F288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00A44A1-7E95-4DE3-8B11-84021C86F288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00A44A1-7E95-4DE3-8B11-84021C86F288}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
