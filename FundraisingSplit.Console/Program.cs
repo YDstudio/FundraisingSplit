@@ -1,6 +1,5 @@
 ﻿using System;
 using Telegram.Bot;
-using System.Text.Json;
 using Telegram.Bot.Args;
 
 namespace FundraisingSplitConsole
@@ -11,7 +10,6 @@ namespace FundraisingSplitConsole
 
     static ITelegramBotClient botClient;
 
-
     static void Main(string[] args)
     {
       var token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
@@ -21,12 +19,12 @@ namespace FundraisingSplitConsole
       Console.WriteLine(
           $"Hello, World! I am user {me.Id} and my name is {me.FirstName}."
       );
+      
       botClient.OnMessage += Bot_OnMessage;
       botClient.StartReceiving();
 
       Console.WriteLine("Press any key to exit");
       Console.ReadKey();
-
       botClient.StopReceiving();
     }
 
@@ -42,6 +40,5 @@ namespace FundraisingSplitConsole
         );
       }
     }
-
   }
 }
